@@ -6,35 +6,35 @@ const App = () => {
   return (
     <>
       <SectionWrapper 
-        title="You own store of Nifty NFTs. Start Selling e Growing"
-        description="Buy, store, collect NFTs, exchange e earn crypto. Join 25+ million people using ProNef Marketplace."
+        title="Você dono da loja de Niifty NFTs. Começe a vender e a crescer"
+        description="Compre, exponha, colecione NFTs, troque e ganhe crypto. Mais de 25 milhões de pessoas utiliza o ProNef Marketplace."
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
       />
       <SectionWrapper 
-        title="Smart User Iterface Marketplace"
-        description="Experience a bettery UI of ProNef NFT marketplace. Smooth constant colors of a fluent UI design"
+        title="Interface inteligente feita para o usuário"
+        description="O ProNef NFT marketplace proporciona ao usuário uma experiência UI. Desenvolvido pensando no usuário com fluência em UI design"
         mockupImg={assets.homeCards}
         reverse
       />
       <Features />
       <SectionWrapper 
         title="Deployment"
-        description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands."
+        description="ProNef foi construido utilizando o Expo. Há espaços para as pessoas divulgarem e negociarem suas NFTs"
         mockupImg={assets.feature}
         reverse
       />
       <SectionWrapper 
-        title="Creative way to showcase the store"
-        description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT."
+        title="Criatividade na criação do APP"
+        description="O App possui duas telas. A primeira tela mostra todas as NFTs, enquanto a segunda tela mostra os detalhes de uma NFT específica."
         mockupImg={assets.mockup}
         banner="banner02"
       />
       <Download />
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {""}</p>
-        <span className='bold'>JavaScript Mastery</span>
+        <p className={`${styles.pText} ${styles.whiteText}`}>Feito com amor de {""}</p>
+        <span className='bold'>Mistery</span>
       </div>
     </>
   );

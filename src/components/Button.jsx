@@ -11,7 +11,7 @@ const Button = ({ assetUrl, link }) => {
     >
       <img src={assetUrl} alt="expo_icon" className={`${styles.btnIcon} w-48 h-48`} />
       <div className="flex flex-col ml-4">
-        <p className={`${styles.btnText} font-normal text-xs`}>View it on</p>
+        <p className={`${styles.btnText} font-normal text-xs`}>Visualize</p>
         <p className={`${styles.btnText} font-bold text-sm`}>Expo Store</p>
       </div>
     </div>
